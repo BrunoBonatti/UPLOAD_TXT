@@ -2,16 +2,16 @@
 
 # Project Description
 
-  The aim of this project is to develop a system that allows the user to view a report in ALV Grid format containing the header of accounting documents based on a specific range of documents by company and year. Additionally, upon double-clicking on a header row, the related items will be displayed in a second ALV Grid for a detailed view.
+  The aim of this project is to develop a system that allows the user to upload a TXT file located in their directory and read it within the SAP GUI.
 <BR>
 
 ### Key Features
 
-✔️ Display a report in ALV Grid format with the header of accounting documents, filtered by the user-selected company and year range.
+✔️ Presents a selection screen that includes an input field with a file selection checkbox for locating the desired file in your directory.
 
-✔️ Upon double-clicking on a header row, present the related items for the selected document in a second ALV Grid for a detailed view.
+✔️ Using GUI_UPLOAD to perform file reading and copy its contents into an internal table.
 
-✔️ Handle situations with missing or invalid data: if the user enters nonexistent data within the specified range, an error message should be displayed, allowing the user to correct the field to avoid inconsistencies.
+✔️ Handling situations with missing or invalid data: if the user enters data that is not allowed, an error message should be displayed, allowing the user to correct the field to prevent inconsistencies.
 
 <BR>
 
